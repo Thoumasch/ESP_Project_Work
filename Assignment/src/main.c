@@ -1,5 +1,8 @@
 #include <sleep.h>
 #include <zynq_registers.h>		// Defines hardware registers
+
+// test comment
+
 int main(void)
 {
 	AXI_LED_TRI = ~0xF;		// Set direction for bits 0-3 to output for the LEDs
